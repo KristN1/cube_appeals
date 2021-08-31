@@ -11,9 +11,16 @@ $ pip install -i https://test.pypi.org/simple/ cube-appeals
 $ pip install undetected-chromedriver
 ```
 
+It is recommended to **use VPN** when running code with this package as you might get rate-limited.
+
 ### Example:
 ```py
 from cube_appeals import check_appeal
 
 print(check_appeal.java("KristN_"))
 ```
+
+### To Do:
+- [ ] Use chromedriver headless mode 
+- [ ] Fix undetected-crhomedriver not installing with the package
+- [ ] Add rate limit exception
