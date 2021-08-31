@@ -1,5 +1,4 @@
-import driver_gen
-import exceptions
+from cube_appeals import driver_gen, exceptions
 from selenium.webdriver.common.by import By
 
 def java(ign):
