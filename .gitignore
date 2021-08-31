@@ -1,2 +1,5 @@
 __pycache__/
 **/__pycache__
+docs/
+dist/
+cube_appeals.egg-info/
